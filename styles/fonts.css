@@ -1,0 +1,9 @@
+/* styles/fonts.css */
+
+/* Import the Noto Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+
+/* Set Noto Sans as the default font for the entire project */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
