@@ -2,6 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { increment, decrement } from '../slices/counterSlice';
 import Navbar from '@/components/nav/NavBar';
 import Banner from '@/components/Banner';
+import CardList from '@/components/card/CardList';
 
 export default function Home() {
   const count = useSelector((state) => state.counter);
@@ -11,6 +12,7 @@ export default function Home() {
     <div className='flex flex-col relative '>
     <Navbar></Navbar>
     <Banner></Banner>
+    <CardList/>
     </div>
     // <div className="p-10">
     //   <h1 className="text-4xl font-bold mb-4">Next.js with Redux Toolkit and Tailwind CSS</h1>
